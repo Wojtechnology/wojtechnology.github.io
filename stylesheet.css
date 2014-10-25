@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #5E5E5E;
+	text-align: left;
+}
+#left_block {
+	background-color: #AEAEAE;
+	width: 30px;
+	height: 100%;
+	padding: 0 5px 0 5px;
+	text-align: left;
+	border-right: 5px solid #999;
+	overflow: hidden;
+	float: left;
+	position: fixed;
+}
+#left_block div {
+	width: 200px;
+	height: 35px;
+	text-align: left;
+}
+#left_block img {
+	margin-top: 5px;
+	height: 30px;
+	width: 30px
+}
+#left_block span {
+	position: relative;
+	top: -10px;
+	left: 10px;
+	color: #FFFFFF;
+	font-family: helvetica;
+	font-weight: 900;
+	font-size: 12px;
+}
+#left_block span:hover{
+	color: #5E5E5E;
+}
+#left_block a {
+	text-decoration: none;
+}
+#contact {
+	position: absolute;
+	right: -20;
+	bottom: 40;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	color: #FFFFFF;
+	font-family: helvetica;
+	font-weight: 900;
+	font-size: 22px;
+	text-shadow: 1px 1px #000000;
+}
+#main_block {
+	text-align: center;
+	height: 100%;
+	margin: 0 0 0 40px;
+	padding: 0 0 0 30px;
+}
+#main_block_projects {
+	text-align: center;
+	min-height: 100%;
+	margin: 0 0 0 40px;
+	background-color: rgb(192, 14, 46);
+	padding: 0;
+}
+.top_block {
+	text-align: center;
+	height: 50%;
+	/*width:100% - 70px;*/
+	color: #FFFFFF;
+	position: relative;
+}
+.top_block span {
+	font-family: helvetica;
+	font-size: 72px;
+	font-weight: 900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-shadow: 2px 2px #000000;
+}
+.top_block img {
+	height: 200px;
+	width: 300px;
+	float: right;
+}
+.bottom_block {
+	text-align: center;
+	height: 50%;
+	/*width:100% - 70px;*/
+	font-size: 25px;
+	color: #FFFFFF;
+	position:relative;
+}
+.bottom_block a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.circle {
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	line-height: 200px;
+	font-size: 22px;
+	position: absolute;
+	font-family: helvetica;
+	font-weight: 900;
+	cursor: pointer;
+	box-shadow: 2px 2px #000000;
+}
+.content_block {
+	padding: 15px 15px 15px 195px;
+	border: 5px solid rgb(208, 14, 46);
+	text-align: left;
+	max-width: 800px;
+	color: #FFFFFF;
+	font-family: helvetica;
+	font-weight: 900;
+	font-size: 14px;
+	margin-bottom: -5px;
+}
+.content_block h1 {
+	font-size: 24px;
+	text-shadow: 1px 1px #000000;
+}
+.content_block a {
+	color: #FFFFFF;
+}
+.content_block a:hover {
+	color: blue;
+}
