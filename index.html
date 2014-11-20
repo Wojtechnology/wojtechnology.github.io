@@ -5,10 +5,38 @@
 		<link href="style/mainStyle.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="header">
-			<img src="images/portrait.png"/>
-		</div>
+		<nav id="navBar" class="navbar navbar-default" role="navigation">
+	 		<div class="container">
+				<div class="navbar-header"> 
+	 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsingBlock">
+				        <span class="sr-only">Toggle Navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    <h3 class="nameLogo">Wojtek Swiderski</h3>
+				</div>
 
+				<nav id="collapsingBlock" class="collapse navbar-collapse" role="navigation">
+	  				<ul id="menuNavigation" class="nav navbar-nav navbar-right">
+	      				<li class="active menuItem"><a href="/en/">Home</a></li>
+						<li class="menuItem"><a href="/en/about/">About</a></li>
+						<li class="menuItem"><a href="/en/about/">Projects</a></li>
+						<li class="menuItem"><a href="/en/portfolio/">Contacts</a></li>
+						<li class="menuItem"><a href="/en/contacts/">Resume</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+		<div class="faceBlock">
+			<img class="portrait" src="images/portrait.jpg"/>
+			<h1>Wojtek Swiderski</h1>
+			<h4>Software Engineering student at the University of Waterloo</h4>
+		</div>
+		<div style="height:3000px;"></div>
+
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	</body>
+		<script src="js/front.js"></script>
+		</body>
 </html>

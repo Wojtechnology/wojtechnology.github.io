@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.portrait {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+}
+
+.nameLogo {
+	margin: 10px;
+}
+
+.navbar-default {
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	color: white;
+	margin-top: 60px;
+}
+
+#menuNavigation {
+	color: white;
+}
+
+.faceBlock {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/backFront.jpg");
+	background-size: cover;
+	padding-top: 15%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.faceBlock h1, h4 {
+	text-align: center;
+	color: white;
+}
+
+/* Bootstrap modifiers */
+
+.affix {
+	margin-top: 0;
+	width: 100%;
+	background-color: #1C2A4D;
+}
