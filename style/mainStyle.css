@@ -15,6 +15,8 @@
 
 .nameLogo {
 	margin: 10px;
+	font-family: 'Neuton', serif;
+	font-weight: 700;
 }
 
 .navbar-default {
@@ -22,17 +24,22 @@
 	border: 0;
 	color: white;
 	margin-top: 60px;
+	font-family: 'Neuton', serif;
 }
 
 .navbar-default a {
 	color: #FFF !important;
+}
+.navbar-default a:hover {
+	color: #1C2A4D !important;
+	background-color: #FFF !important;
 }
 
 .navbar-default .navbar-nav > .active a, 
 .navbar-default .navbar-nav > .active a:hover, 
 .navbar-default .navbar-nav > .active a:focus {
       color: #1C2A4D !important;
-      background: #FFF;
+      background-color: #FFF;
  }
 
 .faceBlock {
@@ -40,7 +47,7 @@
 	height: 100%;
 	background-image: url("../images/backFront.jpg");
 	background-size: cover;
-	padding-top: 15%;
+	padding-top: 200px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -50,6 +57,12 @@
 .faceBlock h1, h4 {
 	text-align: center;
 	color: white;
+	text-shadow: 0 0 8px #1C2A4D;
+	font-family: 'Neuton', serif;
+}
+
+.faceBlock h1 {
+	font-weight: 700;
 }
 
 /* Bootstrap modifiers */
@@ -58,4 +71,46 @@
 	margin-top: 0;
 	width: 100%;
 	background-color: #1C2A4D;
+}
+
+/* Mobile helpers */
+
+@media (max-width: 767px) {
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+	}
+}
+
+@media (max-height: 519px) and (min-width: 832px){
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+		height: 520px;
+		background-size: 100%, 520px;
+	}
+}
+
+@media (max-height: 519px) and (max-width: 831px){
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+		height: 520px;
+		background-size: 832px, 520px;
+	}
 }
