@@ -1,8 +1,26 @@
-$('#navBar').affix({
-  offset: {
-    top: 60,
-  }
-})
+$(document).ready(function(){
+	$('#navBar').affix({
+		offset: {
+			top: 60,
+		}
+	});
+	var topPage = $("#topPage");
+	var winHeight = $(window).height();
+	var scrolled = $(document).scrollTop();
+	topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+	$(window).resize(function(){
+		winHeight = $(window).height();
+		scrolled = $(window).scrollTop();
+		if(winHeight * (1 - scrolled/winHeight) > scrolled)
+			topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+	});
+	$(window).scroll(function(){
+		winHeight = $(window).height();
+		scrolled = $(window).scrollTop();
+		if(winHeight * (1 - scrolled/winHeight) > scrolled)
+			topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+	});
+});
 
 //Old Function
 /*$(document).ready(function(){

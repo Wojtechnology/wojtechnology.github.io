@@ -25,6 +25,7 @@
 	color: white;
 	margin-top: 60px;
 	font-family: 'Neuton', serif;
+	z-index: 1;
 }
 
 .navbar-default a {
@@ -63,6 +64,17 @@
 
 .faceBlock h1 {
 	font-weight: 700;
+}
+
+.bodyBlock {
+	height: 3000px;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 0;
+	background-color: green;
+	transform: translateZ(-1px);
 }
 
 /* Bootstrap modifiers */
