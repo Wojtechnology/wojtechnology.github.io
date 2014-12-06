@@ -77,6 +77,24 @@
 	transform: translateZ(-1px)
 }
 
+.aboutMe {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutMe h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+}
+
+.aboutMe p {
+	text-align: center;
+	font-family: 'Neuton', serif;
+	font-size: 14pt;
+}
+
 /* Bootstrap modifiers */
 
 .affix {

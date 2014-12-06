@@ -4,25 +4,29 @@ $(document).ready(function(){
 			top: 60,
 		}
 	});
-	var topPage = $("#topPage");
-	var winHeight = $(window).height();
-	var scrolled = $(document).scrollTop();
-	$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-	topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
-	$(window).resize(function(){
-		winHeight = $(window).height();
-		scrolled = $(window).scrollTop();
-		if(winHeight * (1 - scrolled/winHeight) > scrolled)
-			$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-			topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
-	});
-	$(window).scroll(function(){
-		winHeight = $(window).height();
-		scrolled = $(window).scrollTop();
-		if(winHeight * (1 - scrolled/winHeight) > scrolled)
-			$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-			topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
-	});
+	if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+		var topPage = $("#topPage");
+		var winHeight = $(window).height();
+		var scrolled = $(document).scrollTop();
+		$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
+		topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+		$(window).resize(function(){
+			winHeight = $(window).height();
+			scrolled = $(window).scrollTop();
+			if(winHeight * (1 - scrolled/winHeight) > scrolled){
+				$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
+				topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+			}
+		});
+		$(window).scroll(function(){
+			winHeight = $(window).height();
+			scrolled = $(window).scrollTop();
+			if(winHeight * (1 - scrolled/winHeight) > scrolled){
+				$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
+				topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+			}
+		});
+	}
 });
 
 //Old Function
