@@ -73,8 +73,8 @@
 	top: 100%;
 	left: 0;
 	z-index: 0;
-	background-color: green;
-	transform: translateZ(-1px);
+	background-color: white;
+	transform: translateZ(-1px)
 }
 
 /* Bootstrap modifiers */
