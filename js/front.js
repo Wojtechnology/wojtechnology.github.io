@@ -1,21 +1,43 @@
 $(document).ready(function(){
+
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing');
+	});
+
+
 	$('#navBar').affix({
 		offset: {
 			top: 60,
 		}
 	});
+
+	$('.pBlock').hover(function(){
+			$(this).css({'border-color':'#FF8800'});
+			$(this).css({'box-shadow':'5px 5px 10px #555555'});
+		},function(){
+			$(this).css({'border-color':'#33B5E5'});
+			$(this).css({'box-shadow':'0px 0px 0px #000000'});
+	});
+
 	if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
 		var topPage = $("#topPage");
 		var winHeight = $(window).height();
 		var scrolled = $(document).scrollTop();
 		$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-		topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+		//topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
 		$(window).resize(function(){
 			winHeight = $(window).height();
 			scrolled = $(window).scrollTop();
 			if(winHeight * (1 - scrolled/winHeight) > scrolled){
 				$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-				topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+				//topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
 			}
 		});
 		$(window).scroll(function(){
@@ -23,11 +45,15 @@ $(document).ready(function(){
 			scrolled = $(window).scrollTop();
 			if(winHeight * (1 - scrolled/winHeight) > scrolled){
 				$(".stuff").fadeTo(0, 1 - scrolled/winHeight * 4);
-				topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
+				//topPage.css("top", (winHeight * (1 - scrolled/winHeight)).toString() + "px");
 			}
 		});
 	}
 });
+
+function clearButtons(){
+	
+}
 
 //Old Function
 /*$(document).ready(function(){

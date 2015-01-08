@@ -26,6 +26,7 @@
 	margin-top: 60px;
 	font-family: 'Neuton', serif;
 	z-index: 1;
+	border-radius: 0;
 }
 
 .navbar-default a {
@@ -42,6 +43,25 @@
       color: #1C2A4D !important;
       background-color: #FFF;
  }
+
+.clickMore {
+	position: absolute;
+	bottom: 0px;
+	left: 35%;
+	color: #33B5E5;
+}
+
+.clickMore:hover {
+	color: #FF8800;
+}
+
+.placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
 
 .faceBlock {
 	width: 100%;
@@ -67,7 +87,6 @@
 }
 
 .bodyBlock {
-	height: 3000px;
 	width: 100%;
 	position: absolute;
 	top: 100%;
@@ -78,21 +97,69 @@
 }
 
 .aboutMe {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FFFFFF;
 }
 
-.aboutMe h1 {
+.projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+h1 {
 	text-align: center;
 	font-weight: 700;
 	font-family: 'Neuton', serif;
 }
 
-.aboutMe p {
+p {
 	text-align: center;
 	font-family: 'Neuton', serif;
 	font-size: 14pt;
+}
+
+hr {
+	max-width: 800px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.pBlock {
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #33B5E5;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.pBlock h3 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+	color: #33B5E5;
+}
+
+.inside {
+	color: #33B5E5;
+}
+
+.inside:hover {
+	color: #FF8800;
+	text-decoration: none;
 }
 
 /* Bootstrap modifiers */
