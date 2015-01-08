@@ -13,6 +13,14 @@
 	height: 200px;
 }
 
+.logoProj {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
 .nameLogo {
 	margin: 10px;
 	font-family: 'Neuton', serif;
