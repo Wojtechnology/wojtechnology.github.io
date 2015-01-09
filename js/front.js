@@ -16,14 +16,15 @@ $(document).ready(function(){
 	        'scrollTop': $target.offset().top
 	    }, 900, 'swing');
 	});
-
+	
+	$('.clickMore').css('cursor', 'pointer');
 
 	$('#navBar').affix({
 		offset: {
 			top: 60,
 		}
 	});
-
+	
 	$('.pBlock').hover(function(){
 			$(this).css({'border-color':'#FF8800'});
 			//$(this).css({'box-shadow':'5px 5px 10px #555555'});

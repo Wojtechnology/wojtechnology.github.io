@@ -113,6 +113,16 @@
 	background-color: #FFFFFF;
 }
 
+.slides {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #1C2A4D;
+	color: #FFF;
+}
+
 .projects {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -226,6 +236,15 @@ a:active {
 	padding: 10px;
 }
 
+body.modal-open {
+    overflow: visible;
+}
+
+.modal-title {
+	color: #1C2A4D;
+	text-shadow: none;
+}
+
 /* Bootstrap modifiers */
 
 .affix {
@@ -275,3 +294,5 @@ a:active {
 		background-size: 832px, 520px;
 	}
 }
+
+

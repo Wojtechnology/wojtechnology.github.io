@@ -46,20 +46,11 @@
 			<div class="container aboutMe" id="about">
 				<h1>About Me</h1>
 				<center><hr></center>				
-<p>My name is Wojtek Swiderski. I am currently a Software Engineering student at the University of Waterloo. I am passionate about making great products, meeting exceptional people, and expanding my skill set. My dream is to start a Software Company that will change the way people use computers, and the way that they will live in the future.</p>
-				<p>I have an advanced knowledge of <strong>Java</strong>, <strong>C</strong>/<strong>C++</strong>, and <strong>LabView</strong>. In addition, my experience in <strong>Python</strong> and <strong>Javascript</strong> is constantly growing. Using LabView and Python, I designed robotic systems which featured technologies such as visual processing, PID control and state machines. I have a foundation in Javascript web frameworks including <strong>NodeJS</strong> (Express), BackboneJS, proficiency in Bootstrap, and experience with <strong>MongoDB</strong> and <strong>MySQL</strong>.</p>
-				<p>I am an astonishingly quick learner and pay very close attention to detail. Through my involvement in the United Nations York Catholic Assembly, I am able to efficiently lead a group towards a particular goal. I see myself as a natural leader, and take on the leadership role at any opportunity.</p>
+<p>I am currently a Software Engineering student at the University of Waterloo. I am passionate about making great products, meeting exceptional people, and expanding my skill set. I am a quick learner and pay very close attention to detail. Most of all, I love programming and overcoming challenging obstacles by finding new solutions to existing problems. My goal for the future is to work on innovative technologies that will move the field of software forward.</p>
+				<p>I am proficient at <strong>Java</strong>, <strong>C/C++</strong>, <strong>Python</strong>, <strong>Android Development</strong> and front-end web development in <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>. In addition, I have a working knowledge of implementing teleoperated and autonomous systems for robots using <strong>National Instruments LabView</strong> and <strong>Arduino</strong>. Also, I am comfortable with server-side web development in a <strong>UNIX</strong> environment using <strong>Apache</strong>, <strong>NodeJS</strong>, <strong>MySQL</strong> and <strong>MongoDB</strong>. Finally, I have experience with <strong>Git</strong>, <strong>Terminal</strong> and <strong>SSH</strong>.</p>
+				<p>I am most interested in cloud computing and hope to work in this field. After experimenting with different areas of computer science, I have found a passion for networks and servers. I am a strong supporter of the Unix environment and would love to work on any project that requires backend development, such as data warehousing, Android and iOS apps, and web applications.</p>
+<p>Finally, I have strong skills in organization, leadership and project management as shown in my experience as an organizer of a Model United Nations event and as lead programmer of an FRC Robotics team. I love collaborating and spending time with other passionate people. I am an avid mountain biker and skier. I live by the saying, "Live life in moderation, including moderation."</p>
 			</div>
-			<!--<div style="background: rgb(255,255,255); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(51,51,51,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(51,51,51,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(51,51,51,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(51,51,51,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(51,51,51,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
-height: 40px">
-		</div>-->
 		<div class="container projects" id="projects">
 			<h1>My Projects</h1>
 			<center><hr></center>
@@ -71,16 +62,16 @@ height: 40px">
 				<p>A fun, social Android application that allows users to change the wallpaper of other users’ devices</p>
 				<hr>
 				<p><strong>Tools:</strong> Android Studio, Java, NodeJS, MongoDB, Google Cloud Messaging</p>
-				<a href="#face"><p class="clickMore">Learn More</p></a>
+				<a href="#myModal1" data-toggle="modal"><p class="clickMore">Learn More</p></a>
 			</div>	
 			<div class="pBlock">
 				<img src="images/ss_logo.png" class="logoProj">
 				<a href="https://github.com/Guatmobile/myro-domestic-security"><h3 style="margin-left: 60px;" class="inside">Scribbler Security</h3></a>
 				<p style="font-style: italic;">December 2014</p>
-				<p>A security system that uses randomly generated patterns displayed on an Android device</p>
+				<p>A security system that uses visual processing to read square patterns displayed by an Android device</p>
 				<hr>
 				<p><strong>Tools:</strong> Python</p>
-				<a href="#face"><p class="clickMore">Learn More</p></a>
+				<a href="#myModal1" data-toggle="modal"><p class="clickMore">Learn More</p></a>
 			</div>
 			<div class="pBlock">
 				<img src="images/ck_logo.png" class="logoProj">
@@ -89,7 +80,7 @@ height: 40px">
 				<p>A web service that displays local deals on a map using data gathered from Groupon and Red Flag Deals</p>
 				<hr>
 				<p><strong>Tools:</strong> Ubuntu, Apache, NodeJS, MySQL, Google Maps API</p>
-				<a href="#face"><p class="clickMore">Learn More</p></a>
+				<a href="#myModal1" data-toggle="modal"><p class="clickMore">Learn More</p></a>
 			</div>	
 			<div class="pBlock">
 				<img src="images/mp_logo.png" class="logoProj">
@@ -98,7 +89,7 @@ height: 40px">
 				<p>A Windows client that allows users to write on a computer using position data from the Myo Armband</p>
 				<hr>
 				<p><strong>Tools:</strong> C++, Myo Armband API, OpenGL</p>
-				<a href="#face"><p class="clickMore">Learn More</p></a>
+				<a href="#myModal1" data-toggle="modal"><p class="clickMore">Learn More</p></a>
 			</div>
 			<div class="pBlock">
 				<img src="images/rc_logo.png" class="logoProj">
@@ -107,9 +98,10 @@ height: 40px">
 				<p>A cross-platform desktop client that stores student account balances based on student ID</p>
 				<hr>
 				<p><strong>Tools:</strong> Java, NetBeans, Swing</p>
-				<a href="#face"><p class="clickMore">Learn More</p></a>
+				<a href="#myModal1" data-toggle="modal"><p class="clickMore">Learn More</p></a>
 			</div>	
 		</div>
+
 		<div class="container contact" id="contact">
 			<h1>Contact Me</h1>
 			<center><hr></center>
@@ -147,8 +139,29 @@ height: 40px">
 			<p>Copyright &copy; Wojtek Swiderski 2015</p>
 		</div>
 
+		</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Feature is in the making!</h4>
+        </div>
+       <!-- <div class="modal-body">
+          ...
+        </div>-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         <!-- <button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->	
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/front.js"></script>
 		</body>
 </html>
