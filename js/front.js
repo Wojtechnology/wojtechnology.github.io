@@ -97,6 +97,15 @@ $(document).ready(function(){
 	}
 });
 
+//Collapse navbar
+ $(function(){ 
+     var navMain = $("#collapsingBlock");
+
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+
 //Old Function
 /*$(document).ready(function(){
 	$(window).on('resize', function(){
