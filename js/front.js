@@ -52,6 +52,14 @@ $(document).ready(function(){
 			scrollingEffect();
 			headerEffect();
 		});
+	}else{
+		//Collapse navbar
+		$(function(){ 
+		    var navMain = $("#collapsingBlock");
+		    navMain.on("click", "a", null, function () {
+		        navMain.collapse('hide');
+		    });
+		});
 	}
 	
 	//fade out for front picture when scrolling
@@ -96,15 +104,6 @@ $(document).ready(function(){
 		$("#contBut").removeClass("active");
 	}
 });
-
-//Collapse navbar
- $(function(){ 
-     var navMain = $("#collapsingBlock");
-
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-     });
- });
 
 //Old Function
 /*$(document).ready(function(){
