@@ -1,0 +1,343 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.portrait {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.logoProj {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.nameLogo {
+	margin: 10px;
+	font-family: 'Neuton', serif;
+	font-weight: 700;
+}
+
+.navbar-default {
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	color: white;
+	margin-top: 60px;
+	font-family: 'Neuton', serif;
+	z-index: 1;
+	border-radius: 0;
+}
+
+.navbar-default a {
+	color: #FFF !important;
+}
+.navbar-default a:hover {
+	color: #1C2A4D !important;
+	background-color: #FFF !important;
+}
+
+.navbar-default .navbar-nav > .active a, 
+.navbar-default .navbar-nav > .active a:hover, 
+.navbar-default .navbar-nav > .active a:focus {
+      color: #1C2A4D !important;
+      background-color: #FFF;
+ }
+
+.clickMore {
+	position: absolute;
+	bottom: 0px;
+	left: 35%;
+	color: #33B5E5;
+}
+
+.clickMore:hover {
+	color: #FF8800;
+}
+
+.placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.backgroundImage {
+	width: 100%;
+	height: 100%;
+}
+
+.faceBlock {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/backFront.jpg");
+	background-size: cover;
+	padding-top: 200px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.faceBlock h1, h4 {
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 8px #1C2A4D;
+	font-family: 'Neuton', serif;
+}
+
+.faceBlock h1 {
+	font-weight: 700;
+}
+
+.bodyBlock {
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 0;
+	background-color: white;
+	transform: translateZ(-1px)
+}
+
+.aboutMe {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+
+.slides {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #1C2A4D;
+	color: #FFF;
+}
+
+.projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.contact {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+}
+
+p {
+	text-align: center;
+	font-family: 'Neuton', serif;
+	font-size: 14pt;
+}
+
+hr {
+	max-width: 800px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.pBlock {
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #33B5E5;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.pBlock h3 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+	color: #33B5E5;
+}
+
+.inside {
+	color: #33B5E5;
+}
+
+.inside:hover {
+	color: #FF8800;
+	text-decoration: none;
+}
+
+.networkName {	
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+	color: #33B5E5;
+}
+
+.fa {
+	color: #FF8800;
+}
+
+.mailLink {
+	color: #33B5E5;
+}
+
+.mailLink:hover {
+	color: #FF8800;	
+}
+
+.contact h3 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Neuton', serif;
+	color: #000000;
+}
+
+.footer {
+	background-color: #1C2A4D;
+	width: 100%;
+	color: #FFF;
+	margin: 0px;
+	padding: 10px;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+.modal-title {
+	color: #1C2A4D;
+	text-shadow: none;
+}
+
+/* Bootstrap modifiers */
+
+.affix {
+	margin-top: 0;
+	width: 100%;
+	background-color: #1C2A4D;
+}
+
+/* Mobile helpers */
+
+@media (max-width: 767px) {
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+	}
+}
+
+@media (max-height: 519px) and (min-width: 832px){
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+		height: 520px;
+		background-size: 100%, 520px;
+	}
+}
+
+@media (max-height: 519px) and (max-width: 831px){
+	.navbar-default {
+		margin-top: 0;
+		background-color: #1C2A4D;
+		position: fixed;
+		width: 100%;
+	}
+	.faceBlock{
+		padding-top: 80px;
+		height: 520px;
+		background-size: 832px, 520px;
+	}
+}
+
+
