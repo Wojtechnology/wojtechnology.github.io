@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var scrolled;
 	var about;
 	var projects;
+	var contact;
 
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -13,7 +14,7 @@ $(document).ready(function(){
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 400, 'swing');
+	    }, 900, 'swing');
 	});
 	
 	$('.clickMore').css('cursor', 'pointer');
@@ -73,7 +74,10 @@ $(document).ready(function(){
 
 	//change the active block in the header depending on scroll location
 	function headerEffect(){
-		if(scrolled >= projects - 40 || $(window).scrollTop() + $(window).height() >= $(document).height()){
+		if(scrolled >= contact - 40 || $(window).scrollTop() + $(window).height() >= $(document).height()){
+			clearHeader();
+			$("#contBut").addClass("active");
+		}else if(scrolled >= projects - 40){
 			clearHeader();
 			$("#projBut").addClass("active");
 		}else if(scrolled >= about - 40){
@@ -89,6 +93,7 @@ $(document).ready(function(){
 	function getPlacement(){	
 		about = $('#about').offset().top;
 		projects = $('#projects').offset().top;
+		contact = $('#contact').offset().top;
 	}
 
 	//clear all active classes
@@ -96,5 +101,6 @@ $(document).ready(function(){
 		$("#homeBut").removeClass("active");
 		$("#aboutBut").removeClass("active");
 		$("#projBut").removeClass("active");
+		$("#contBut").removeClass("active");
 	}
 });
