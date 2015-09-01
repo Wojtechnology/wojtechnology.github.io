@@ -51,6 +51,7 @@ $(document).ready(function(){
 
 		$(window).scroll(function(){
 			scrollingEffect();
+			getPlacement();
 			headerEffect();
 		});
 	}else{
