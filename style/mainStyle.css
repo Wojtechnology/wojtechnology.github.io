@@ -13,6 +13,33 @@
 	height: 200px;
 }
 
+.header {
+	height: 50px;
+}
+
+.link-area {
+	padding-left: 5px;
+	padding-top: 10px;
+	height: 50px;
+}
+
+.link-button {
+	display: inline-block;
+	border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+	box-shadow: inset 0 0 5px #222222;
+}
+
+.link-button:hover {
+	box-shadow: inset 0 0 5px #CCCCCC;
+	cursor: pointer;
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -77,10 +104,10 @@
 	border-radius: 0;
 }
 
-.navbar-default a {
+.navigation-bar a {
 	color: #FFF !important;
 }
-.navbar-default a:hover {
+.navigation-bar a:hover {
 	color: #1C2A4D !important;
 	background-color: #FFF !important;
 }
@@ -250,7 +277,7 @@ a:active {
 }
 
 .fa {
-	color: #FF8800;
+	color: white;
 }
 
 .mailLink {
