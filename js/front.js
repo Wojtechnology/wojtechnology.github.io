@@ -105,7 +105,9 @@ Animate text to show interests
 
 var initialText = "<i class=\"fa fa-laptop\"></i> Developer | ";
 var interests = ["Cyclist <i class=\"fa fa-bicycle\"></i>",
+				 "Engineer <i class=\"fa fa-wrench\"></i>",
 				 "Skier <i class=\"fa fa-flag\"></i>",
+				 "Music Lover <i class=\"fa fa-headphones\"></i>",
 				 "Entrepreneur <i class=\"fa fa-star\"></i>"];
 var c = 0;
 setInterval(function () {
