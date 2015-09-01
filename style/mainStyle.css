@@ -1,3 +1,8 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica.ttf);
+}
+
 * {
 	margin: 0;
 	border: 0;
@@ -95,7 +100,7 @@
 
 .nameLogo {
 	margin: 10px;
-	font-family: 'Neuton', serif;
+	font-family: 'coolvetica', serif;
 	font-weight: 700;
 }
 
