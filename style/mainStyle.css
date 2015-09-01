@@ -172,7 +172,7 @@
 	left: 0;
 	z-index: 0;
 	background-color: white;
-	transform: translateZ(-1px)
+	transform: translateZ(-1px);
 }
 
 .aboutMe {
