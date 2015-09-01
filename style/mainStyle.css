@@ -154,14 +154,14 @@
 	z-index: -1;
 }
 
-.faceBlock h1, h4 {
+.faceBlock h2, h4 {
 	text-align: center;
 	color: white;
 	text-shadow: 0 0 8px #1C2A4D;
 	font-family: 'coolvetica';
 }
 
-.faceBlock h1 {
+.faceBlock h2 {
 	font-size: 72px;
 }
 
