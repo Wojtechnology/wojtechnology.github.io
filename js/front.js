@@ -120,8 +120,8 @@ $(document).ready(function(){
 });
 
 /*
-//Animate text to show interests
-
+Animate text to show interests
+*/
 
 var initialText = "<i class=\"fa fa-laptop\"></i> Developer | ";
 var interests = ["Cyclist <i class=\"fa fa-bicycle\"></i>",
@@ -134,4 +134,4 @@ setInterval(function () {
 	$('#interests').fadeOut(function () {
 		$(this).html(initialText + interests[c = (c + 1) % interests.length]).fadeIn();
 	});
-}, 5000);*/
+}, 5000);
