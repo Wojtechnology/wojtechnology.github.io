@@ -81,7 +81,6 @@ $(document).ready(function(){
 			$("#aboutBut").addClass("active");
 		}else{
 			clearHeader();
-			$("#homeBut").addClass("active");
 		}
 	}
 
@@ -93,7 +92,6 @@ $(document).ready(function(){
 
 	//clear all active classes
 	function clearHeader(){
-		$("#homeBut").removeClass("active");
 		$("#aboutBut").removeClass("active");
 		$("#projBut").removeClass("active");
 	}
