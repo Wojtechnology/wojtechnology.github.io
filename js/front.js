@@ -5,6 +5,8 @@ $(document).ready(function(){
 	var about;
 	var projects;
 
+	photoResize();
+
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 
@@ -59,6 +61,24 @@ $(document).ready(function(){
 		        navMain.collapse('hide');
 		    });
 		});
+	}
+
+	$(window).resize(function(){
+		photoResize();
+	});
+
+	//resize portrait if required
+	function photoResize() {
+		var winHeight = $(window).height();
+		var photo = $("#mainPhoto");
+		if (winHeight < 450) {
+			var newDimen = 200 - (450 - winHeight);
+			photo.height(newDimen);
+			photo.width(newDimen);
+		} else {
+			photo.height(200);
+			photo.width(200);
+		}
 	}
 	
 	//fade out for front picture when scrolling
