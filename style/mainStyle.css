@@ -37,11 +37,11 @@
 	height: 40px;
 	width: 40px;
 	margin-right: 5px;
-	box-shadow: inset 0 0 5px #222222;
+	box-shadow: inset 0 0 2px #222222;
 }
 
 .link-button:hover {
-	box-shadow: inset 0 0 5px #CCCCCC;
+	box-shadow: inset 0 0 2px #CCCCCC;
 	cursor: pointer;
 }
 
