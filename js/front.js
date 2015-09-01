@@ -98,3 +98,18 @@ $(document).ready(function(){
 		$("#projBut").removeClass("active");
 	}
 });
+
+/*
+Animate text to show interests
+*/
+
+var initialText = "<i class=\"fa fa-laptop\"></i> Developer | ";
+var interests = ["Cyclist <i class=\"fa fa-bicycle\"></i>",
+				 "Skier <i class=\"fa fa-flag\"></i>",
+				 "Entrepreneur <i class=\"fa fa-star\"></i>"];
+var c = 0;
+setInterval(function () {
+	$('#interests').fadeOut(function () {
+		$(this).html(initialText + interests[c = (c + 1) % interests.length]).fadeIn();
+	});
+}, 5000);

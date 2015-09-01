@@ -158,11 +158,11 @@
 	text-align: center;
 	color: white;
 	text-shadow: 0 0 8px #1C2A4D;
-	font-family: 'coolvetica', serif;
+	font-family: 'coolvetica';
 }
 
 .faceBlock h1 {
-	font-weight: 700;
+	font-size: 72px;
 }
 
 .bodyBlock {
