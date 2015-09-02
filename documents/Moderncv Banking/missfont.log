@@ -29,3 +29,8 @@ mktextfm FontAwesome
 mktextfm FontAwesome/I
 mktextfm FontAwesome
 mktextfm FontAwesome
+mktextfm umvs
+mktextfm umvs
+mktextfm umvs
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 umvs
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 umvs
