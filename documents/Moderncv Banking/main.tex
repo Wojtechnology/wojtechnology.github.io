@@ -10,7 +10,7 @@
 
 % moderncv themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{orange}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -26,7 +26,7 @@
 
 % personal data
 \name{Wojtek}{Swiderski}
-\title{Software Engineering - UWaterloo}                               % optional, remove / comment the line if not wanted
+\title{\textbf{Software Engineering} - UWaterloo}                               % optional, remove / comment the line if not wanted
 % \phone{(416)~317~0133}                                             % optional, remove / comment the line if not wanted
 \email{wswiders@uwaterloo.ca}                                        % optional, remove / comment the line if not wanted
 \homepage{wojtechnology.com}                                         % optional, remove / comment the line if not wanted
@@ -52,33 +52,66 @@
 \vspace{-8ex}
 
 \section{Skills}
-\cvitem{Languages}{C/C++, Java, Python, JavaScript, LabVIEW, Octave, \LaTeX, HTML, CSS}
+\cvitem{Languages}{C/C++, Java, Python, JavaScript, LabVIEW, Octave, \LaTeX, HTML, QML, CSS}
+\vspace{-0.25ex}
 \cvitem{Technologies}{Qt, Android SDK, Django, Tornado, NodeJS, PostgreSQL, MongoDB, Angular JS, JQuery}
+\vspace{-0.25ex}
 \cvitem{Services}{AWS, Github, Perforce, [Google, Facebook, SoundCloud] API}
+\vspace{-0.25ex}
 \cvitem{Tools}{Git, Sublime, Android Studio, XCode, Visual Studio, Vim, Bash, MacOSX, Ubuntu}
 
 \section{Experience}
-\subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
-Detailed achievements:%
+\cventry{2015}{Software Engineer}{Sony Creative Software}{Waterloo}{}{
 \begin{itemize}%
 \item Achievement 1;
 \item Achievement 2, with sub-achievements:
-  \begin{itemize}%
-  \item Sub-achievement (a);
-  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-    \begin{itemize}
-    \item Sub-sub-achievement i;
-    \item Sub-sub-achievement ii;
-    \item Sub-sub-achievement iii;
-    \end{itemize}
-  \item Sub-achievement (c);
-  \end{itemize}
 \item Achievement 3.
-\end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-\subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\end{itemize}
+}
+\cventry{2015--present}{Co-Founder and Lead Backend Developer}{CrowdSponsor}{Waterloo}{}{
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2, with sub-achievements:
+\item Achievement 3.
+\end{itemize}
+}
+
+\section{Personal Projects}
+\cvproj{\httplink[Repository]{github.com/wojtechnology/sunami} \faGithub}{\textbf{Sunami Music Player} | \httplink[\textit{Google Play Store}]{play.google.com/store/apps/details?id=com.wojtechnology.sunami}}{
+Android application that plays music based on your current preferred genre and song playback history
+\begin{itemize}%
+\item Implemented smart suggestion system for music using a graph of genres generated with the \textbf{Echo Nest API}
+\item Architected the application using asynchronous methods resulting in a smooth UX
+\item Added online music search and streaming using the \textbf{SoundCloud API}
+\end{itemize}
+}
+\cvproj{\httplink[Repository]{github.com/wojtechnology/LANParty} \faGithub}{\textbf{LANParty} | UWaterloo EngHack Spring 2015}{
+Play music from your library on someone else's phone over wifi
+\begin{itemize}%
+\item Implemented mobile server that allows for music streaming between Android devices over wifi
+\end{itemize}
+}
+\cvproj{\httplink[Repository]{github.com/IntoxicM8/server} \faGithub}{\textbf{IntoxicM8} | AngelHack Toronto 2015}{
+Android application that detects when you are intoxicated and helps you get home safely
+\begin{itemize}%
+\item Created a web service that uses a support vector machine to determine if a person is intoxicated based on heart rate, location, time, age and gender
+\item \textbf{Tools:} Tornado, MongoDB, Google Roads and Maps API
+\end{itemize}
+}
+\cvproj{\httplink[Repository]{github.com/Wojtechnology/WoahPaper} \faGithub}{\textbf{WoahPaper}}{
+Android application that allows users to change the wallpaper of other users’ devices
+\begin{itemize}%
+\item Developed all aspects of the application including the Android client and the server
+\item \textbf{Tools:} Android Studio, Java, NodeJS, MongoDB and Google Cloud Messaging
+\end{itemize}
+}
+\cvproj{\httplink[Repository]{github.com/ProjectShrike/CityKit} \faGithub}{\textbf{CityKit} | 24 Hour Startup Hackathon Communitech}{
+A web application that displays local events on a map using Kitchener open data
+\begin{itemize}%
+\item Developed the server backend which parses Kitchener open data for relevant events
+\item \textbf{Tools:} Ubuntu, Apache, NodeJS, MySQL and Google Maps API
+\end{itemize}
+}
 
 \section{Education}
 \cventry{2014--2019}{Candidate for Bachelor of Software Engineering}{University of Waterloo}{Waterloo}{GPA 4.0/4.0}{}  % arguments 3 to 6 can be left empty

@@ -205,6 +205,14 @@
     \else{\\\vbox{\small#7}}\fi%
   \par\addvspace{#1}}
 
+\newcommand{\cvproj}[4][.25em]{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}%
+    {#3} & {#2}\\%
+  \end{tabular*}%
+  \ifx&#4&%
+    \else{\\\vbox{\small#4}}\fi%
+  \par\addvspace{#1}}
+
 \newbox{\cvitemwithcommentmainbox}
 \newlength{\cvitemwithcommentmainlength}
 \newlength{\cvitemwithcommentcommentlength}
