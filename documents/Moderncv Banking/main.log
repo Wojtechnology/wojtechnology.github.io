@@ -1,14 +1,12 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.9.2)  3 SEP 2015 16:36
-entering extended mode
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  3 SEP 2015 16:45
  restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
 (./moderncv.cls
-Document Class: moderncv 2013/02/09 v1.3.0 modern curriculum vitae and letter d
-ocument class
+Document Class: moderncv 2013/02/09 v1.3.0 modern curriculum vitae and letter do
+cument class
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
@@ -25,13 +23,21 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
-e/RRM/JK)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count80
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -102,7 +108,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
@@ -121,15 +127,15 @@ Package graphics Info: Driver file: xetex.def on input line 94.
 (./tweaklist.sty)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count80
-\calc@Bcount=\count81
+\calc@Acount=\count81
+\calc@Bcount=\count82
 \calc@Adimen=\dimen104
 \calc@Bdimen=\dimen105
 \calc@Askip=\skip50
 \calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count82
+\calc@Ccount=\count83
 \calc@Cskip=\skip52
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -146,24 +152,24 @@ L3 Module: l3tl 2015/07/14 v5659 L3 Token lists
 L3 Module: l3str 2015/07/14 v5659 L3 Strings
 L3 Module: l3seq 2015/07/24 v5681 L3 Sequences and stacks
 L3 Module: l3int 2015/07/14 v5659 L3 Integers
-\c_max_int=\count83
-\l_tmpa_int=\count84
-\l_tmpb_int=\count85
-\g_tmpa_int=\count86
-\g_tmpb_int=\count87
+\c_max_int=\count84
+\l_tmpa_int=\count85
+\l_tmpb_int=\count86
+\g_tmpa_int=\count87
+\g_tmpb_int=\count88
 L3 Module: l3quark 2015/07/14 v5659 L3 Quarks
 L3 Module: l3prg 2015/07/30 v5722 L3 Control structures
-\g__prg_map_int=\count88
+\g__prg_map_int=\count89
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2015/02/26 v5537 L3 Messages
 L3 Module: l3file 2015/07/30 v5714 L3 File and I/O operations
-\l_iow_line_count_int=\count89
-\l__iow_target_count_int=\count90
-\l__iow_current_line_int=\count91
-\l__iow_current_word_int=\count92
-\l__iow_current_indentation_int=\count93
+\l_iow_line_count_int=\count90
+\l__iow_target_count_int=\count91
+\l__iow_current_line_int=\count92
+\l__iow_current_word_int=\count93
+\l__iow_current_indentation_int=\count94
 L3 Module: l3skip 2015/07/14 v5659 L3 Dimensions and skips
 \c_zero_dim=\dimen106
 \c_max_dim=\dimen107
@@ -184,18 +190,18 @@ L3 Module: l3skip 2015/07/14 v5659 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/07/26 v5684 L3 Key-value interfaces
-\g__keyval_level_int=\count94
-\l_keys_choice_int=\count95
+\g__keyval_level_int=\count95
+\l_keys_choice_int=\count96
 L3 Module: l3fp 2015/07/09 v5652 L3 Floating points
-\c__fp_leading_shift_int=\count96
-\c__fp_middle_shift_int=\count97
-\c__fp_trailing_shift_int=\count98
-\c__fp_big_leading_shift_int=\count99
-\c__fp_big_middle_shift_int=\count100
-\c__fp_big_trailing_shift_int=\count101
-\c__fp_Bigg_leading_shift_int=\count102
-\c__fp_Bigg_middle_shift_int=\count103
-\c__fp_Bigg_trailing_shift_int=\count104
+\c__fp_leading_shift_int=\count97
+\c__fp_middle_shift_int=\count98
+\c__fp_trailing_shift_int=\count99
+\c__fp_big_leading_shift_int=\count100
+\c__fp_big_middle_shift_int=\count101
+\c__fp_big_trailing_shift_int=\count102
+\c__fp_Bigg_leading_shift_int=\count103
+\c__fp_Bigg_middle_shift_int=\count104
+\c__fp_Bigg_trailing_shift_int=\count105
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \c_empty_box=\box26
 \l_tmpa_box=\box27
@@ -244,35 +250,124 @@ L3 Module: l3luatex 2015/06/30 v5646 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
 File: l3unicode-data.def 2015/07/20 v-1 L3 Unicode data
-) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvidpfmx.def 2015/06/30 v5646 L3 Experimental driver: xdvipdfmx
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/06/30 v5646 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count106
 ))
 Package: xparse 2015/07/28 v5700 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count105
-\l__xparse_m_args_int=\count106
-\l__xparse_mandatory_args_int=\count107
-\l__xparse_processor_int=\count108
-\l__xparse_v_nesting_int=\count109
-) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype.sty
+\l__xparse_current_arg_int=\count107
+\l__xparse_m_args_int=\count108
+\l__xparse_mandatory_args_int=\count109
+\l__xparse_processor_int=\count110
+\l__xparse_v_nesting_int=\count111
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks15
-\MT@count=\count110
+\MT@count=\count112
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen137
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count111
+\MT@listname@count=\count113
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype-xetex.de
-f
-File: microtype-xetex.def 2013/05/23 v2.5a Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 254.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype-luatex.d
+ef
+File: microtype-luatex.def 2013/05/23 v2.5a Definitions specific to luatex (RS)
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2013/05/11 v0.6 Resource management for the LuaTeX macro pro
+grammer
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2015/07/08 v2.3 eTeX basic definition package (PEB,DPC)
+\et@xins=\count114
+)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+(/usr/local/texlive/2015basic/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-compa
+t.sty
+Package: luatexbase-compat 2011/05/24 v0.4 Compatibility tools for LuaTeX
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-modut
+ils.sty
+Package: luatexbase-modutils 2013/05/11 v0.6 Module utilities for LuaTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-loade
+r.sty
+Package: luatexbase-loader 2013/05/11 v0.6 Lua module loader for LuaTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase.loader
+.lua))
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/modutils.lua)
+Lua module: luatexbase-modutils 2013/05/11 0.6 Module utilities for LuaTeX
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.
+sty
+Package: luatexbase-regs 2011/05/24 v0.4 Registers allocation for LuaTeX
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.
+sty
+Package: luatexbase-attr 2013/05/11 v0.6 Attributes allocation for LuaTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/attr.lua)
+Lua module: luatexbase-attr 2013/05/11 0.6 Attributes allocation for LuaTeX
+\lltxb@attr@unsetvalue=\count280
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.
+sty
+Package: luatexbase-cctb 2013/05/11 v0.6 Catcodetable allocation for LuaTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/cctb.lua)
+Lua module: luatexbase-cctb 2013/05/11 0.6 Catcodetable allocation for LuaTeX
+\lltxb@catcodetable@alloc=\count281
+\CatcodeTableStack=\count282
+\CatcodeTableIniTeX=\luatexcatcodetable1
+\CatcodeTableString=\luatexcatcodetable3
+\CatcodeTableOther=\luatexcatcodetable5
+\CatcodeTableLaTeX=\luatexcatcodetable7
+\CatcodeTableLaTeXAtLetter=\luatexcatcodetable9
+\CatcodeTableExpl=\luatexcatcodetable11
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.s
+ty
+Package: luatexbase-mcb 2013/05/11 v0.6 Callback management for LuaTeX
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luatexbase/mcb.lua)
+Lua module: luatexbase-mcb 2013/05/11 0.6 register several functions in a callba
+ck
+))
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype.lua)
+Lua module: microtype 2013/05/15 2.5 microtype module.
+LaTeX Info: Redefining \lsstyle on input line 644.
+LaTeX Info: Redefining \lslig on input line 644.
+\MT@outer@space=\skip256
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype.cfg
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-)) (./moderncvcompatibility.sty
-Package: moderncvcompatibility 2013/02/09 v1.3.0 modern curriculum vitae and le
-tter compatibility patches
+))
+(./moderncvcompatibility.sty
+Package: moderncvcompatibility 2013/02/09 v1.3.0 modern curriculum vitae and let
+ter compatibility patches
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -281,9 +376,9 @@ tter compatibility patches
 .................................................
  (./collection.sty
 Package: collection 2013/03/28 v1.0.0 collections
-\c@collection@iterator=\count112
+\c@collection@iterator=\count283
 )
-\c@collection@phones@count=\count113
+\c@collection@phones@count=\count284
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -299,31 +394,101 @@ Package: collection 2013/03/28 v1.0.0 collections
 . 
 . Defining command \subsection with sig. 'sm' on line 360.
 .................................................
-\c@cvcolumnscounter=\count114
-\c@cvcolumnsautowidthcounter=\count115
-\c@tmpiteratorcounter=\count116
-\cvcolumnsdummywidth=\skip59
-\cvcolumnswidth=\skip60
-\cvcolumnsautowidth=\skip61
-\cvcolumnautowidth=\skip62
-\bibindent=\skip63
+\c@cvcolumnscounter=\count285
+\c@cvcolumnsautowidthcounter=\count286
+\c@tmpiteratorcounter=\count287
+\cvcolumnsdummywidth=\skip257
+\cvcolumnswidth=\skip258
+\cvcolumnsautowidth=\skip259
+\cvcolumnautowidth=\skip260
+\bibindent=\skip261
 ) (./moderncvstylebanking.sty
-Package: moderncvstylebanking 2013/02/09 v1.3.0 modern curriculum vitae and let
-ter style scheme: banking
+Package: moderncvstylebanking 2013/02/09 v1.3.0 modern curriculum vitae and lett
+er style scheme: banking
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaTeX
-\l_fontspec_script_int=\count117
-\l_fontspec_language_int=\count118
-\l_fontspec_strnum_int=\count119
-\l__fontspec_tmpa_dim=\dimen138
-\l__fontspec_tmpb_dim=\dimen139
-\l__fontspec_tmpc_dim=\dimen140
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2014/08/10 v2.5-4 OpenType layout system
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-main.l
+ua)
+Lua module: luaotfload-main 2014/08/10 2.50003 OpenType layout system.
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lu
+a)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-fontlo
+ader.lua)(using write cache: /Users/wojtekswiderski/Library/texlive/2015basic/te
+xmf-var/luatex-cache/generic)(using read cache: /usr/local/texlive/2015basic/tex
+mf-var/luatex-cache/generic /Users/wojtekswiderski/Library/texlive/2015basic/tex
+mf-var/luatex-cache/generic)
+luatexbase-attr: luatexbase.attributes["luaotfload@kernpair"] = 1
+luatexbase-attr: luatexbase.attributes["luaotfload@ligacomp"] = 2
+luatexbase-attr: luatexbase.attributes["luaotfload@markbase"] = 3
+luatexbase-attr: luatexbase.attributes["luaotfload@markmark"] = 4
+luatexbase-attr: luatexbase.attributes["luaotfload@markdone"] = 5
+luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
+luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
+luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
+luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
+luaotfload | main : fontloader loaded in 0.025 seconds
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'pre_linebreak_filter'
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'hpack_filter'
+luatexbase-mcb: inserting 'luaotfload.find_vf_file'
+at position 1 in 'find_vf_file'
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-overri
+de.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-parser
+s.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-config
+uration.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-status
+.lua)
+luaotfload | conf : Root cache directory is /Users/wojtekswiderski/Library/texli
+ve/2015basic/texmf-var/luatex-cache/generic/names.
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-loader
+s.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-databa
+se.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-colors
+.lua)
+luaotfload | conf : Root cache directory is /Users/wojtekswiderski/Library/texli
+ve/2015basic/texmf-var/luatex-cache/generic/names.
+luatexbase-mcb: creating 'luaotfload.resolve_font' type 4
+luatexbase-mcb: creating 'luaotfload.patch_font' type 4
+luatexbase-mcb: resetting callback 'define_font'
+luatexbase-mcb: inserting 'luaotfload.define_font'
+at position 1 in 'define_font'
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-featur
+es.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-letter
+space.lua)
+(/usr/local/texlive/2015basic/texmf-dist/tex/luatex/luaotfload/luaotfload-auxili
+ary.lua)
+luatexbase-mcb: inserting 'luaotfload.aux.set_sscale_dimens'
+at position 1 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.patch_cambria_domh'
+at position 2 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.set_capheight'
+at position 3 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.rewrite_fontname'
+at position 4 in 'luaotfload.patch_font')
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec.lua)
+Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
+\l_fontspec_script_int=\count288
+\l_fontspec_language_int=\count289
+\l_fontspec_strnum_int=\count290
+\l__fontspec_tmpa_dim=\dimen256
+\l__fontspec_tmpb_dim=\dimen257
+\l__fontspec_tmpc_dim=\dimen258
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec-patches.st
 y
-Package: fontspec-patches 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLa
-TeX
+Package: fontspec-patches 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaT
+eX
 LaTeX Info: Redefining \em on input line 49.
 LaTeX Info: Redefining \emph on input line 57.
 LaTeX Info: Redefining \- on input line 60.
@@ -338,148 +503,162 @@ LaTeX Info: Redefining \- on input line 60.
 . Defining command \liningnums with sig. 'm' on line 159.
 .................................................
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaTe
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaTe
 X
-
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu1enc.def
-File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
 )
-LaTeX Font Info:    Try loading font information for EU1+lmr on input line 105.
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
 
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu1lmr.fd
-File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | db : Font names database loaded from /Users/wojtekswiderski/Library
+/texlive/2015basic/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(com
+piling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/ot
+f/lmroman10-regular.luc)(load luc: /Users/wojtekswiderski/Library/texlive/2015ba
+sic/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.luc))
 (/usr/local/texlive/2015basic/texmf-dist/tex/xelatex/xunicode/xunicode.sty
-File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
-other characters in Unicode lower plane
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
+ther characters in Unicode lower plane
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
-.
+(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/font
+s/otf/lmromanslant10-regular.luc)(load luc: /Users/wojtekswiderski/Library/texli
+ve/2015basic/texmf-var/luatex-cache/generic/fonts/otf/lmromanslant10-regular.luc
+)(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fon
+ts/otf/lmroman10-italic.luc)(load luc: /Users/wojtekswiderski/Library/texlive/20
+15basic/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-italic.luc)(compiling
+ luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/lmro
+man10-bold.luc)(load luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf
+-var/luatex-cache/generic/fonts/otf/lmroman10-bold.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu1lmss.fd
-File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-\tipaTiiicode=\count120
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fon
+ts/otf/lmsans10-regular.luc)(load luc: /Users/wojtekswiderski/Library/texlive/20
+15basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans10-regular.luc))
+\tipaTiiicode=\count291
 \tipasavetokens=\toks16
 \tipachecktokens=\toks17
 )
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 42.
+. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 45.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'om' on line 44.
+. Defining command \fontspec with sig. 'om' on line 47.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'om' on line 54.
+. Defining command \setmainfont with sig. 'om' on line 57.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'om' on line 64.
+. Defining command \setsansfont with sig. 'om' on line 67.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'om' on line 74.
+. Defining command \setmonofont with sig. 'om' on line 77.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'om' on line 88.
+. Defining command \setmathrm with sig. 'om' on line 91.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'om' on line 96.
+. Defining command \setboldmathrm with sig. 'om' on line 99.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'om' on line 104.
+. Defining command \setmathsf with sig. 'om' on line 107.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'om' on line 112.
+. Defining command \setmathtt with sig. 'om' on line 115.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mom' on line 126.
+. Defining command \newfontfamily with sig. 'mom' on line 129.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mom' on line 141.
+. Defining command \newfontface with sig. 'mom' on line 144.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 155.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 158.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 210.
+. Defining command \addfontfeatures with sig. 'm' on line 214.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 221.
+. Defining command \newfontfeature with sig. 'mm' on line 225.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 229.
+. Defining command \newAATfeature with sig. 'mmmm' on line 233.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 237.
+. Defining command \newopentypefeature with sig. 'mmm' on line 241.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 261.
+. Defining command \aliasfontfeature with sig. 'mm' on line 265.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 270.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 274.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 275.
+. Defining command \newfontscript with sig. 'mm' on line 279.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 301.
+. Defining command \newfontlanguage with sig. 'mm' on line 305.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 321.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 325.
 .................................................
-\l__fontspec_tmp_int=\count121
-LaTeX Info: Redefining \itshape on input line 2230.
-LaTeX Info: Redefining \slshape on input line 2235.
-LaTeX Info: Redefining \scshape on input line 2240.
-LaTeX Info: Redefining \upshape on input line 2245.
+\l__fontspec_tmp_int=\count292
+LaTeX Info: Redefining \itshape on input line 2154.
+LaTeX Info: Redefining \slshape on input line 2159.
+LaTeX Info: Redefining \scshape on input line 2164.
+LaTeX Info: Redefining \upshape on input line 2169.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (./fontawesome.sty
@@ -488,33 +667,54 @@ Package: fontawesome 2015/07/30 v4.4.0 font awesome icons
 (/usr/local/texlive/2015basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 (./fontawesomesymbols-generic.tex)
-\g__file_internal_ior=\read1
+\g__file_internal_ior=\read2
+luaotfload | cache : Lookup cache loaded from /Users/wojtekswiderski/Library/tex
+live/2015basic/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc,dfont); reason: "Font F
+ontAwesome not found.".
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"(compiling lu
+c: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/fontawe
+some.luc)(compiling luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-
+var/luatex-cache/generic/fonts/otf/fontawesome.luc)(save: /Users/wojtekswiderski
+/Library/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/fontawesome.
+lua)(save: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-var/luatex-cac
+he/generic/fonts/otf/fontawesome.luc)
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | aux : font no 22 (FontAwesome) defines no feature for script latn
+luaotfload | aux : no font with id 22
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font FontAwesome does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_FontAwesome_int=\count122
+\g__fontspec_family_FontAwesome_int=\count293
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font FontAwesome/BI (it probably doesn't exist).
 .................................................
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font FontAwesome/B (it probably doesn't exist).
 .................................................
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font FontAwesome/I (it probably doesn't exist).
 .................................................
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | aux : font no 22 (FontAwesome) does not define feature smcp for scr
+ipt  with language 
+luaotfload | aux : no font with id 22
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -523,33 +723,32 @@ Package ifluatex Info: LuaTeX not detected.
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"FontAwesome/AAT:"
+. <->"FontAwesome:mode=node;"
 . 
 . * 'small caps' with NFSS spec.:
 . 
 . and font adjustment code:
 . 
 .................................................
- (./fontawesomesymbols-xeluatex.tex))
-(./moderncviconsmarvosym.sty
-Package: moderncviconsmarvosym 2013/02/09 v1.3.0 modern curriculum vitae and le
-tter icons: marvosym
+ (./fontawesomesymbols-xeluatex.tex)) (./moderncviconsmarvosym.sty
+Package: moderncviconsmarvosym 2013/02/09 v1.3.0 modern curriculum vitae and let
+ter icons: marvosym
 )
-\maketitlebox=\box41
-\maketitletempbox=\box42
-\maketitlewidth=\skip64
-\maketitleboxwidth=\skip65
-\quotewidth=\skip66
-\hintscolumnwidth=\skip67
-\separatorcolumnwidth=\skip68
-\maincolumnwidth=\skip69
-\doubleitemcolumnwidth=\skip70
-\listitemsymbolwidth=\skip71
+\maketitlebox=\box256
+\maketitletempbox=\box257
+\maketitlewidth=\skip262
+\maketitleboxwidth=\skip263
+\quotewidth=\skip264
+\hintscolumnwidth=\skip265
+\separatorcolumnwidth=\skip266
+\maincolumnwidth=\skip267
+\doubleitemcolumnwidth=\skip268
+\listitemsymbolwidth=\skip269
 LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/marvosym/umvs.fd)
-\listitemmaincolumnwidth=\skip72
-\listdoubleitemmaincolumnwidth=\skip73
+\listitemmaincolumnwidth=\skip270
+\listdoubleitemmaincolumnwidth=\skip271
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
@@ -560,13 +759,13 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
 . 
 . Redefining command \subsection with sig. 'sm' on line 176.
 .................................................
-\cvitemwithcommentmainbox=\box43
-\cvitemwithcommentmainlength=\skip74
-\cvitemwithcommentcommentlength=\skip75
+\cvitemwithcommentmainbox=\box258
+\cvitemwithcommentmainlength=\skip272
+\cvitemwithcommentcommentlength=\skip273
 )
 (./moderncvcolororange.sty
-Package: moderncvcolororange 2013/02/09 v1.3.0 modern curriculum vitae and lett
-er color scheme: orange
+Package: moderncvcolororange 2013/02/09 v1.3.0 modern curriculum vitae and lette
+r color scheme: orange
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -581,58 +780,58 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count123
-\Gm@cntv=\count124
-\c@Gm@tempcnt=\count125
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
+\Gm@cnth=\count294
+\Gm@cntv=\count295
+\c@Gm@tempcnt=\count296
+\Gm@bindingoffset=\dimen259
+\Gm@wd@mp=\dimen260
+\Gm@odd@mp=\dimen261
+\Gm@even@mp=\dimen262
+\Gm@layoutwidth=\dimen263
+\Gm@layoutheight=\dimen264
+\Gm@layouthoffset=\dimen265
+\Gm@layoutvoffset=\dimen266
 \Gm@dimlist=\toks20
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2014/10/28 v1.2c Show layout parameters
-\oneinch=\count126
-\cnt@paperwidth=\count127
-\cnt@paperheight=\count128
-\cnt@hoffset=\count129
-\cnt@voffset=\count130
-\cnt@textheight=\count131
-\cnt@textwidth=\count132
-\cnt@topmargin=\count133
-\cnt@oddsidemargin=\count134
-\cnt@evensidemargin=\count135
-\cnt@headheight=\count136
-\cnt@headsep=\count137
-\cnt@marginparsep=\count138
-\cnt@marginparwidth=\count139
-\cnt@marginparpush=\count140
-\cnt@footskip=\count141
-\fheight=\count142
-\ref@top=\count143
-\ref@hoffset=\count144
-\ref@voffset=\count145
-\ref@head=\count146
-\ref@body=\count147
-\ref@foot=\count148
-\ref@margin=\count149
-\ref@marginwidth=\count150
-\ref@marginpar=\count151
-\Interval=\count152
-\ExtraYPos=\count153
-\PositionX=\count154
-\PositionY=\count155
-\ArrowLength=\count156
+\oneinch=\count297
+\cnt@paperwidth=\count298
+\cnt@paperheight=\count299
+\cnt@hoffset=\count300
+\cnt@voffset=\count301
+\cnt@textheight=\count302
+\cnt@textwidth=\count303
+\cnt@topmargin=\count304
+\cnt@oddsidemargin=\count305
+\cnt@evensidemargin=\count306
+\cnt@headheight=\count307
+\cnt@headsep=\count308
+\cnt@marginparsep=\count309
+\cnt@marginparwidth=\count310
+\cnt@marginparpush=\count311
+\cnt@footskip=\count312
+\fheight=\count313
+\ref@top=\count314
+\ref@hoffset=\count315
+\ref@voffset=\count316
+\ref@head=\count317
+\ref@body=\count318
+\ref@foot=\count319
+\ref@margin=\count320
+\ref@marginwidth=\count321
+\ref@marginpar=\count322
+\Interval=\count323
+\ExtraYPos=\count324
+\PositionX=\count325
+\PositionY=\count326
+\ArrowLength=\count327
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -641,34 +840,31 @@ Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 ty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
-
 (/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
 y
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package hobsub Info: Skipping package `luatex-loader' (already loaded).
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/local/texlive/2015basic/texmf-dist/scripts/oberdiek/pdftexcmds.lua)
+\pdftexcmds@toks=\toks21
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
 Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
@@ -680,20 +876,21 @@ Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+)
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count157
-\Hy@pagecounter=\count158
+\@linkdim=\dimen267
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count159
+\Hy@SavedSpaceFactor=\count330
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -710,12 +907,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count160
+\c@Hy@tempcnt=\count331
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen150
-\Fld@menulength=\count161
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\XeTeXLinkMargin=\dimen268
+\Fld@menulength=\count332
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -725,41 +922,29 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count162
-\c@Item=\count163
-\c@Hfootnote=\count164
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
 )
 
-Package hyperref Message: Driver (autodetected): hxetex.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box44
-\c@Hy@AnnotLevel=\count165
-\HyField@AnnotCount=\count166
-\Fld@listcount=\count167
-\c@bookmark@seq@number=\count168
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count336
+\c@bookmark@seq@number=\count337
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
-\Hy@SectionHShift=\skip76
+\Hy@SectionHShift=\skip274
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 47.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 47.
- (./main.aux)
-\openout1 = `main.aux'.
+(./main.aux)
+\openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
@@ -773,7 +958,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 47.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 47.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 47.
@@ -785,22 +970,53 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count338
+\scratchdimen=\dimen271
+\scratchbox=\box259
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen272
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.tif,.jpeg,.PNG,.PDF,.JPG,.JPEG,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
 LaTeX Info: Redefining \microtypecontext on input line 47.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
  (/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
 )
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmr' (encoding: EU1).
+(microtype)             `lmr' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: EU1).
+(microtype)             `lmss' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
@@ -808,9 +1024,9 @@ Package microtype Info: Loading generic settings for font family
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -841,7 +1057,7 @@ Package microtype Info: Loading generic settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box45
+\AtBeginShipoutBox=\box260
 Package hyperref Info: Link coloring OFF on input line 47.
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -850,177 +1066,190 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 y
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count169
+\c@section@level=\count344
 )
 LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
  (./main.out) (./main.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
 
+\openout3 = main.out
+(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/font
+s/otf/lmsans17-regular.luc)(load luc: /Users/wojtekswiderski/Library/texlive/201
+5basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans17-regular.luc)(compiling 
+luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/lmsan
+s10-bold.luc)(load luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-v
+ar/luatex-cache/generic/fonts/otf/lmsans10-bold.luc)(compiling luc: /usr/local/t
+exlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans12-regular.luc)(
+load luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-var/luatex-cach
+e/generic/fonts/otf/lmsans12-regular.luc)
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 Package microtype Info: Loading generic settings for font family
-(microtype)             `FontAwesome' (encoding: EU1).
+(microtype)             `FontAwesome' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Character `A' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `F' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `J' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `K' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `L' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `T' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `V' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `W' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `X' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `Y' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `k' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `r' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `v' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `w' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `x' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `y' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `1' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `4' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `7' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `.' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `,' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `:' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `;' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `!' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `?' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `@' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `~' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\%' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `%' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `*' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `+' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `(' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `)' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `-' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textendash ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textemdash ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteleft ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquoteright ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblleft ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquotedblright ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `_' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbackslash ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textbackslash ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbraceleft ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textbraceleft ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbraceright ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textbraceright ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textless ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textless ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textgreater ' is missing
-(microtype)             in font `\EU1/FontAwesome(0)/m/n/10.95'.
+Package microtype Info: Character `textgreater ' is missing
+(microtype)             in font `EU2/FontAwesome(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 50.
 
@@ -1034,12 +1263,10 @@ File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 50.
 
-
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 50.
-
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1055,10 +1282,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 72.
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 72.
+(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/font
+s/otf/lmsans8-regular.luc)(load luc: /Users/wojtekswiderski/Library/texlive/2015
+basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans8-regular.luc)
+LaTeX Font Info:    Font shape `EU2/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `EU2/lmss/m/sl' tried instead on input line 72.
+(compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/font
+s/otf/lmsans10-oblique.luc)(load luc: /Users/wojtekswiderski/Library/texlive/201
+5basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans10-oblique.luc)
+LaTeX Font Info:    Font shape `EU2/lmss/m/it' in size <10> not available
+(Font)              Font shape `EU2/lmss/m/sl' tried instead on input line 72.
+
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
@@ -1066,19 +1300,39 @@ No file main.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 [1
 
-]
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
- (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 143.
- ) 
-Here is how much of TeX's memory you used:
- 25090 strings out of 495158
- 456626 string characters out of 6175470
- 528997 words of memory out of 5000000
- 28144 multiletter control sequences out of 15000+600000
- 17084 words of font info for 48 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 46i,11n,66p,10356b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (1 page).
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F432611FDBBDB5B517A199D2D244AF4D;385.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 26285 strings out of 494771
+ 100000,662416 words of node,token memory allocated
+ 360 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 55 glue_spec, 5 attrib
+ute_list, 2 write nodes
+   avail lists: 1:1,2:10277,3:157,4:1388,5:243,6:3243,7:44,8:17,9:241,10:306
+ 29287 multiletter control sequences out of 65536+600000
+ 46 fonts using 3644135 bytes
+ 48i,11n,67p,1162b,335s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans10-obliq
+ue.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans8
+-regular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/l
+mroman10-regular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/pub
+lic/lm/lmsans10-regular.otf></Users/wojtekswiderski/Library/Fonts/FontAwesome.ot
+f></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
+ular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsan
+s10-bold.otf><</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/marvos
+ym/marvosym.pfb>
+Output written on main.pdf (1 page, 37414 bytes).
+
+PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
