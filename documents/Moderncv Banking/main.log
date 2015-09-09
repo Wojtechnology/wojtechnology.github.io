@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  3 SEP 2015 16:45
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  9 SEP 2015 15:07
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -432,7 +432,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.025 seconds
+luaotfload | main : fontloader loaded in 0.020 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -671,15 +671,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \g__file_internal_ior=\read2
 luaotfload | cache : Lookup cache loaded from /Users/wojtekswiderski/Library/tex
 live/2015basic/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | db : Reload initiated (formats: otf,ttf,ttc,dfont); reason: "Font F
-ontAwesome not found.".
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"(compiling lu
 c: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/fontawe
-some.luc)(compiling luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-
-var/luatex-cache/generic/fonts/otf/fontawesome.luc)(save: /Users/wojtekswiderski
-/Library/texlive/2015basic/texmf-var/luatex-cache/generic/fonts/otf/fontawesome.
-lua)(save: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-var/luatex-cac
-he/generic/fonts/otf/fontawesome.luc)
+some.luc)(load luc: /Users/wojtekswiderski/Library/texlive/2015basic/texmf-var/l
+uatex-cache/generic/fonts/otf/fontawesome.luc)
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 luaotfload | aux : font no 22 (FontAwesome) defines no feature for script latn
 luaotfload | aux : no font with id 22
@@ -745,8 +740,7 @@ ter icons: marvosym
 \doubleitemcolumnwidth=\skip268
 \listitemsymbolwidth=\skip269
 LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/marvosym/umvs.fd)
+ (/usr/local/texlive/2015basic/texmf-dist/tex/latex/marvosym/umvs.fd)
 \listitemmaincolumnwidth=\skip270
 \listdoubleitemmaincolumnwidth=\skip271
 .................................................
@@ -1311,13 +1305,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26285 strings out of 494771
+ 26284 strings out of 494771
  100000,662416 words of node,token memory allocated
  360 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 55 glue_spec, 5 attrib
 ute_list, 2 write nodes
-   avail lists: 1:1,2:10277,3:157,4:1388,5:243,6:3243,7:44,8:17,9:241,10:306
- 29287 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:10371,3:158,4:1385,5:237,6:3275,7:44,8:18,9:241,10:320
+ 29286 multiletter control sequences out of 65536+600000
  46 fonts using 3644135 bytes
  48i,11n,67p,1162b,335s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans10-obliq
@@ -1329,10 +1323,10 @@ f></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
 ular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsan
 s10-bold.otf><</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/marvos
 ym/marvosym.pfb>
-Output written on main.pdf (1 page, 37414 bytes).
+Output written on main.pdf (1 page, 37344 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 131072)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
