@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  9 SEP 2015 15:07
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  21 SEP 2015 17:29
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -1310,7 +1310,7 @@ Here is how much of LuaTeX's memory you used:
  360 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 55 glue_spec, 5 attrib
 ute_list, 2 write nodes
-   avail lists: 1:1,2:10371,3:158,4:1385,5:237,6:3275,7:44,8:18,9:241,10:320
+   avail lists: 1:1,2:10480,3:159,4:1393,5:247,6:3305,7:44,8:19,9:241,10:319
  29286 multiletter control sequences out of 65536+600000
  46 fonts using 3644135 bytes
  48i,11n,67p,1162b,335s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1323,10 +1323,10 @@ f></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
 ular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsan
 s10-bold.otf><</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/marvos
 ym/marvosym.pfb>
-Output written on main.pdf (1 page, 37344 bytes).
+Output written on main.pdf (1 page, 37672 bytes).
 
-PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 131072)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
