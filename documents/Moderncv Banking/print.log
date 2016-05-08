@@ -1,7 +1,7 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  21 SEP 2015 17:37
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.9.2)  21 SEP 2015 17:39
  restricted \write18 enabled.
-**main.tex
-(./main.tex
+**print.tex
+(./print.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
 (./moderncv.cls
@@ -432,7 +432,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.023 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -757,9 +757,9 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
 \cvitemwithcommentmainlength=\skip272
 \cvitemwithcommentcommentlength=\skip273
 )
-(./moderncvcolororange.sty
-Package: moderncvcolororange 2013/02/09 v1.3.0 modern curriculum vitae and lette
-r color scheme: orange
+(./moderncvcolorblack.sty
+Package: moderncvcolorblack 2013/02/09 v1.3.0 modern curriculum vitae and letter
+ color scheme: black
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -937,9 +937,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 47.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 47.
-(./main.aux)
-\openout1 = main.aux
+No file print.aux.
 
+\openout1 = print.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
@@ -956,7 +956,7 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 47.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 47.
- (/usr/local/texlive/2015basic/texmf-dist/tex/latex/tipa/t3cmr.fd
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 47.
@@ -1065,10 +1065,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
- (./main.out) (./main.out)
 \@outlinefile=\write3
 
-\openout3 = main.out
+\openout3 = print.out
 (compiling luc: /usr/local/texlive/2015basic/texmf-var/luatex-cache/generic/font
 s/otf/lmsans17-regular.luc)(load luc: /Users/wojtekswiderski/Library/texlive/201
 5basic/texmf-var/luatex-cache/generic/fonts/otf/lmsans17-regular.luc)(compiling 
@@ -1290,30 +1289,37 @@ LaTeX Font Info:    Font shape `EU2/lmss/m/it' in size <10> not available
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-No file main.bbl.
+No file print.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 [1
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
 
-(./main.aux)
+(./print.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F432611FDBBDB5B517A199D2D244AF4D;385.
+
+
+Package rerunfilecheck Warning: File `print.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `print.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F432611FDBBDB5B517A199D2D244AF4D;385.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26284 strings out of 494771
+ 26264 strings out of 494771
  100000,662416 words of node,token memory allocated
  360 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 55 glue_spec, 5 attrib
 ute_list, 2 write nodes
    avail lists: 1:1,2:10480,3:159,4:1393,5:247,6:3305,7:44,8:19,9:241,10:319
- 29286 multiletter control sequences out of 65536+600000
+ 29281 multiletter control sequences out of 65536+600000
  46 fonts using 3644135 bytes
- 48i,11n,67p,1162b,335s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 48i,11n,67p,1163b,335s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans10-obliq
 ue.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans8
 -regular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/l
@@ -1323,10 +1329,10 @@ f></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
 ular.otf></usr/local/texlive/2015basic/texmf-dist/fonts/opentype/public/lm/lmsan
 s10-bold.otf><</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/marvos
 ym/marvosym.pfb>
-Output written on main.pdf (1 page, 37672 bytes).
+Output written on print.pdf (1 page, 37352 bytes).
 
-PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
