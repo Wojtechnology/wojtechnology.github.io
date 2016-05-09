@@ -1,2 +1,3 @@
 all:
-	xelatex main.tex && cp main.pdf ../WojciechSwiderskiResume.pdf
+	xelatex main.tex && cp main.pdf ../../resume.pdf
+
