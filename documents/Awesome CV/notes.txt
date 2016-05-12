@@ -1,0 +1,6 @@
+- First, worked on Nina, the payment accounts service responsible for creating and maintaining a hierarchy structure which allows a central payment method to pay for multiple Uber users
+- Did the above using the MVCS design paradigm, SOA, Apache Thrift for interfacing, Grafana for monitoring, Apache Kafka for logging
+- migrated payment accounts metadata from PostgreSQL to Schemaless
+- Provisioned and deployed all services in the United States and China datacenters
+- Build two services responsible for cross-datacenter payment transactions including charging, refunding, adjusting fares.
+- Employed MVCS design paradigm, Apache Thrift interfaces and polymorphism to allow for fast addition of payment methods and code maintainability in Uber's microservices architecture
