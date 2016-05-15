@@ -17,7 +17,7 @@ $(document).ready(function(){
 	        'scrollTop': $target.offset().top
 	    }, 400, 'swing');
 	});
-	
+
 	$('.clickMore').css('cursor', 'pointer');
 
 	$('#navBar').affix({
@@ -25,7 +25,7 @@ $(document).ready(function(){
 			top: 60,
 		}
 	});
-	
+
 	$('.pBlock').hover(function(){
 			$(this).css({'border-color':'#FF8800'});
 			//$(this).css({'box-shadow':'5px 5px 10px #555555'});
@@ -33,16 +33,16 @@ $(document).ready(function(){
 			$(this).css({'border-color':'#33B5E5'});
 			//$(this).css({'box-shadow':'0px 0px 0px #000000'});
 	});
-	
+
 	//Check if this is a mobile device
 	if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
-		
+
 		$("#homeBut").addClass("active");
 
 		scrollingEffect();
 		getPlacement();
 		headerEffect();
-	
+
 		$(window).resize(function(){
 			scrollingEffect();
 			getPlacement();
@@ -56,7 +56,7 @@ $(document).ready(function(){
 		});
 	}else{
 		//Collapse navbar
-		$(function(){ 
+		$(function(){
 		    var navMain = $("#collapsingBlock");
 		    navMain.on("click", "a", null, function () {
 		        navMain.collapse('hide');
@@ -81,7 +81,7 @@ $(document).ready(function(){
 			photo.width(200);
 		}
 	}
-	
+
 	//fade out for front picture when scrolling
 	function scrollingEffect(){
 		winHeight = $(window).height();
@@ -107,7 +107,7 @@ $(document).ready(function(){
 	}
 
 	//get values for the position of boxes
-	function getPlacement(){	
+	function getPlacement(){
 		about = $('#about').offset().top;
 		projects = $('#projects').offset().top;
 	}
