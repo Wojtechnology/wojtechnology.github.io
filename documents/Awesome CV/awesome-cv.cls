@@ -549,11 +549,11 @@
 }
 % Define an entry of cv project
 % Usage: \cvproject{<title>}{<date>}{<description>}{<link>}
-\newcommand*{\cvproject}[4]{
+\newcommand*{\cvproject}[3]{
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{12.5cm} R{4.5cm}}
-    \href{#4}{\entrytitlestyle{#1}} \entrypositionstyle{#2} \\
+    \entrytitlestyle{#1} \entrypositionstyle{#2} \\
     \multicolumn{2}{L{17cm}}{\descriptionstyle{#3}} \\
   \end{tabular*}
 }
