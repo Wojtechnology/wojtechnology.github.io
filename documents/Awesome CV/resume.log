@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  14 MAY 2016 22:55
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  14 MAY 2016 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -808,7 +808,7 @@ LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 5.4749pt on input line 2.
 
-Overfull \hbox (20.6933pt too wide) in alignment at lines 2--15
+Overfull \hbox (20.6933pt too wide) in alignment at lines 2--12
 [] [] 
  []
 
@@ -835,7 +835,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
 Here is how much of TeX's memory you used:
  28513 strings out of 493706
  502212 string characters out of 6145769
- 621973 words of memory out of 5000000
+ 620973 words of memory out of 5000000
  31585 multiletter control sequences out of 15000+600000
  6464 words of font info for 70 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
