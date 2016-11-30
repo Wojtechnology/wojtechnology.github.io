@@ -1,13 +1,31 @@
 \cvsection{Personal Projects}
 \begin{cvprojects}
   \cvproject
+    {Human Pose Estimation}
+    {Cal Hacks 3.0}
+    {
+      \begin{cvitems}
+      \item Used Caffe to implement a human pose estimator using a pre-trained convolutional neural network from a \textit{\href{https://arxiv.org/abs/1602.00134}{paper by Shih-En Wei}}
+      \item Currently working on training a convolutional neural network regressor from \textit{\href{http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/42237.pdf}{deeppose by Google Research}} using Tensorflow
+      \end{cvitems}
+    }
+    {https://github.com/Wojtechnology/WheresRares}
+  \cvproject
+    {Machine Learning Library}
+    {}
+    {
+      \begin{cvitems}
+      \item Implemented a neural network, support vector machine and other algorithms from Andrew Ng's machine learning course in C++
+     \end{cvitems}
+    }
+    {https://github.com/Wojtechnology/ML}
+  \cvproject
     {Sunami Music Player}
     {\href{http://play.google.com/store/apps/details?id=com.wojtechnology.sunami}{Google Play Store}}
     {
       \begin{cvitems}
         \item Implemented smart suggestion system for music using a graph of genres generated with the Echo Nest API
         \item Architected the Android application using asynchronous methods and image caching resulting in a smooth and responsive UX
-        \item Added online music search and streaming using the SoundCloud API
       \end{cvitems}
     }
     {https://github.com/Wojtechnology/Sunami}
@@ -21,24 +39,4 @@
       \end{cvitems}
     }
     {https://github.com/Wojtechnology/GlassBoard}
-  \cvproject
-    {Chordi.co}
-    {PennApps XII}
-    {
-      \begin{cvitems}
-        \item Developed web app that procedurally generates music, taught with data from real artists; used PyBrain
-        \item Implemented music generation using a feedforward neural network with a training set of chord progressions from popular songs
-      \end{cvitems}
-    }
-    {https://github.com/davepagurek/Chordi.co}
-  \cvproject
-    {IntoxicM8}
-    {AngelHack Toronto 2015}
-    {
-      \begin{cvitems}
-        \item Created a service that uses a support vector machine and sensor data from an Android device to determine if a user is intoxicated
-        \item Implemented pipeline to train models for individuals using their weight, size, gender, etc.; used scikit-learn
-      \end{cvitems}
-    }
-    {https://github.com/IntoxicM8/server}
 \end{cvprojects}
