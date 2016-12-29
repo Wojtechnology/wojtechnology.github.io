@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  30 NOV 2016 01:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 DEC 2016 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,20 +821,11 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 15.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 15.
-) (./resume/extracurricular.tex)
-(./resume/education.tex)
+) (./resume/extracurricular.tex
+
+Package hyperref Warning: Suppressing link with empty target on input line 22.
+
+) (./resume/education.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
  [1
 
@@ -845,12 +836,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 28536 strings out of 493706
- 503258 string characters out of 6145769
+ 28513 strings out of 493706
+ 502212 string characters out of 6145769
  621954 words of memory out of 5000000
- 31596 multiletter control sequences out of 15000+600000
- 7762 words of font info for 81 fonts, out of 8000000 for 9000
+ 31585 multiletter control sequences out of 15000+600000
+ 6464 words of font info for 70 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,65p,10395b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,65p,10395b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
