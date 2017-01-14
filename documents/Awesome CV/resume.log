@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  13 JAN 2017 17:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  14 JAN 2017 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,14 +718,14 @@ LaTeX Info: Redefining \selectfont on input line 67.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(35.56593pt, 773.34592pt, 36.135pt)
+* v-part:(T,H,B)=(42.67912pt, 766.23273pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=773.34592pt
+* \textheight=766.23273pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-73.70406pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -836,11 +836,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 28520 strings out of 493706
- 502224 string characters out of 6145769
+ 28524 strings out of 493706
+ 502428 string characters out of 6145769
  620806 words of memory out of 5000000
- 31586 multiletter control sequences out of 15000+600000
- 6460 words of font info for 70 fonts, out of 8000000 for 9000
+ 31588 multiletter control sequences out of 15000+600000
+ 6476 words of font info for 72 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,11n,65p,10395b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 
