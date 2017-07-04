@@ -2,16 +2,29 @@
 \begin{cventries}
   \cventry
     {Software Engineering Intern}
+    {Oscar Health}
+    {New York, New York}
+    {May - August 2017}
+    {
+      \begin{cvitems}
+      \item Working on improving the relevancy of doctor search using learning to rank methods
+      \item Designed framework for labeling datasets to be used in training and evaluation of machine learning models
+      \item Built ranking comparison tool in React and Redux used by different teams to decide on which ranking strategies to deploy
+      \item Developed service that approximates travel time from member to doctor using Google's S2 library
+      \end{cvitems}
+    }
+  \cventry
+    {Software Engineering Intern}
     {Quora}
     {Mountain View, California}
     {August - December 2016}
     {
       \begin{cvitems}
       \item Launched machine learning model for related questions ranking that \textbf{increased signups by 5.5\%}
-      \item Ran and evaluated multiple experiments that tested online performance of related questions ranking models
-      \item Built pipeline for training above models (logistic regression, gradient boosted decision trees, random forests) and evaluating them using AUROC and NDCG; decreased training time from 3 hours to 5 minutes by parallelizing feature extraction
+      \item Ran A/B tests to measure the online performance of related questions ranking models (mainly ensembles of trees)
+      % \item Built pipeline for training machine learning classifiers (mainly ensembles of trees)
+      \item Decreased training time \textbf{from 3 hours to 5 minutes} by parallelizing extraction of natural language features such as Word2Vec and TFIDF similarities and historical features such as question covisits
       \item Refactored caching layer for related questions resulting in \textbf{90\% less lines of code} and removal of a deprecated caching abstraction
-      \item Used Spark to train a collaborative filtering model (ALS matrix factorization) on a matrix with hundreds of millions of items
       \end{cvitems}
     }
   \cventry
@@ -21,11 +34,10 @@
     {January - April 2016}
     {
       \begin{cvitems}
-      \item Individually built three platform services responsible for centralized billing and cross data center transactions using Python/Tornado
-      \item Architected payment transactions services to scale to \textbf{millions of users globally} and to replicate data across multiple data centers
-      \item Migrated payment account metadata from PostgreSQL to Schemaless (Uber's scalable datastore); sharded data and built indexes to \textbf{allow for constant time queries}
-      \item Employed MVCS design paradigm and polymorphism to support quick implementation of additional payment methods
-      \item Used Thrift to create language agnostic service interfaces and to maintain a scalable codebase in Uber's service-oriented architecture
+      \item Individually built three language agnostic services responsible for centralized payments using Python/Tornado and Thrift
+      \item Deployed the services multiple times per day to Uber's cloud where they could be scaled to serve \textbf{millions of users globally}
+      \item Architected payment transaction service used to route transactions to data centers in accordance with international data privacy laws
+      \item Migrated payment account metadata from PostgreSQL to Schemaless (Uber's wide column datastore); sharded data and built indices to \textbf{allow for constant time queries}
       \end{cvitems}
     }
   \cventry
@@ -35,10 +47,9 @@
     {May - August 2015}
     {
       \begin{cvitems}
-        \item Worked on Sony Catalyst series of three cross-platform applications for professional video preparation and editing
+        \item Build features for Sony Catalyst series of three cross-platform applications for professional video preparation and editing
         \item \textbf{Developed APIs for UI components} such as context menus used by all three applications; built with C++ and the Qt Framework
         \item Designed and implemented a cross-platform framework for handling mouse and key system events
-        \item Implemented a core feature which detects and corrects flash bands in media
       \end{cvitems}
     }
 \end{cventries}
