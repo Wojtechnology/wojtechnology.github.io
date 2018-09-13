@@ -1,16 +1,27 @@
 \cvshortsection{Experience}
 \begin{cventries}
   \cventry
+    {Software Developer Intern}
+    {Jane Street}
+    {New York, New York}
+    {January - April 2017}
+    {
+      \begin{cvitems}
+      \item Built a market-data feed that consolidated currency data from multiple sources using a schedule-based configuration
+      \item Developed a version controlled temporal key-value datastore
+      \end{cvitems}
+    }
+  \cventry
     {Software Engineering Intern}
     {Oscar Health}
     {New York, New York}
     {May - August 2017}
     {
       \begin{cvitems}
-      \item Working on improving the relevancy of doctor search using learning to rank methods
-      \item Designed framework for labeling datasets to be used in training and evaluation of machine learning models
-      \item Built ranking comparison tool in React and Redux used by different teams to decide on which ranking strategies to deploy
-      \item Developed service that approximates travel time from member to doctor using Google's S2 library
+      \item Working on improving the relevancy of doctor search using learning to rank methods based on linear models
+      \item Developed service that approximates travel time from member to doctor using Google's S2 geometry library
+      % \item Designed framework for labeling datasets to be used in training and evaluation of machine learning models
+      \item Built ranking comparison and dataset labeling tools in React and Redux% used by different teams to decide on which ranking strategies to deploy
       \end{cvitems}
     }
   \cventry
@@ -20,11 +31,11 @@
     {August - December 2016}
     {
       \begin{cvitems}
-      \item Launched machine learning model for related questions ranking that \textbf{increased signups by 5.5\%}
-      \item Ran A/B tests to measure the online performance of related questions ranking models (mainly ensembles of trees)
+      \item Launched machine learning model based on gradient boosted trees for related questions ranking that increased signups by 5.5\%
+      % \item Ran A/B tests to measure the online performance of related questions ranking models (mainly ensembles of trees)
       % \item Built pipeline for training machine learning classifiers (mainly ensembles of trees)
-      \item Decreased training time \textbf{from 3 hours to 5 minutes} by parallelizing extraction of natural language features such as Word2Vec and TFIDF similarities and historical features such as question covisits
-      \item Refactored caching layer for related questions resulting in \textbf{90\% less lines of code} and removal of a deprecated caching abstraction
+      \item Decreased training time from 3 hours to 5 minutes by parallelizing extraction of natural language features such as Word2Vec and TFIDF similarities and historical features such as question covisits
+      \item Refactored caching layer for related questions resulting in 90\% less lines of code and removal of a deprecated caching abstraction
       \end{cvitems}
     }
   \cventry
@@ -35,9 +46,10 @@
     {
       \begin{cvitems}
       \item Individually built three language agnostic services responsible for centralized payments using Python/Tornado and Thrift
-      \item Deployed the services multiple times per day to Uber's cloud where they could be scaled to serve millions of users globally
+      % \item Deployed the services multiple times per day to Uber's cloud where they could be scaled to serve millions of users globally
       \item Architected payment transaction service used to route transactions to data centers in accordance with international data privacy laws
-      \item Migrated payment account metadata from PostgreSQL to Schemaless (Uber's wide column datastore); sharded data and built indices to allow for constant time queries
+      \item Designed data models for payment account metadata to be stored in Uber's distributed wide column datastore, Schemaless
+      % \item Migrated payment account metadata from PostgreSQL to Schemaless (Uber's wide column datastore); sharded data and built indices to allow for constant time queries
       \end{cvitems}
     }
   \cventry
@@ -47,7 +59,7 @@
     {May - August 2015}
     {
       \begin{cvitems}
-        \item Build features for Sony Catalyst series of three cross-platform applications for professional video preparation and editing
+        % \item Build features for Sony Catalyst series of three cross-platform applications for professional video preparation and editing
         \item Developed APIs for UI components such as context menus used by all three applications; built with C++ and the Qt Framework
         \item Designed and implemented a cross-platform framework for handling mouse and key system events
       \end{cvitems}
