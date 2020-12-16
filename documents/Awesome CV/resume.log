@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  5 FEB 2020 21:15
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  15 DEC 2020 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,11 +816,11 @@ Overfull \hbox (22.05093pt too wide) in alignment at lines 2--12
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <9> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
-ut line 12.
+ut line 16.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
-ut line 12.
+ut line 16.
 ) (./resume/extracurricular.tex)
 (./resume/education.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
@@ -833,12 +833,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 28522 strings out of 493706
- 502324 string characters out of 6145769
+ 28524 strings out of 493706
+ 502428 string characters out of 6145769
  620806 words of memory out of 5000000
- 31587 multiletter control sequences out of 15000+600000
- 6468 words of font info for 71 fonts, out of 8000000 for 9000
+ 31588 multiletter control sequences out of 15000+600000
+ 6476 words of font info for 72 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,65p,10395b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,65p,10395b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
